@@ -36,7 +36,7 @@
 36 T1
 37 T1
 38 T1
-T2 miss schedule!
+39 T2 miss schedule!
 39 
 40 
 41 
@@ -93,7 +93,7 @@ T2 miss schedule!
 92 T1
 93 T1
 94 T1
-T2 miss schedule!
+95 T2 miss schedule!
 95 T1
 96 T1
 97 T1

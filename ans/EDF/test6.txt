@@ -17,9 +17,9 @@
 17 T2
 18 T2
 19 T2
-T1 miss schedule!
+20 T1 miss schedule!
 20 T2
-T3 miss schedule!
+21 T3 miss schedule!
 21 T1
 22 T1
 23 T2

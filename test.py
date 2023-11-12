@@ -28,7 +28,7 @@ class ReadyQueue:
 					self.miss_deadline_job_num += 1
 					self.ready_queue.remove(job)	
 					# print(f"{job.name} miss schedule!")
-					return f"{job.name} miss schedule!\n"
+					return f"{clock} {job.name} miss schedule!\n"
 		return ""
 
 
