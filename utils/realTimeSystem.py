@@ -98,13 +98,14 @@ class RealTimeSystem:
 					job:Job = Job(task, clock)
 					self.ready_queue.insert(self.schedule_type, job)
 
-			self.ready_queue.printRQ()
 
 			# excute job from ready queue
 			name = '{:<2}'.format(self.ready_queue.get_first_priority_job())
 			self.text += f"{clock} {name} {missing_str}\n"
-			print(f"{'{:<2}'.format(clock)} {name}")
-			print("---\n")
+
+			# self.ready_queue.printRQ()
+			# print(f"{'{:<2}'.format(clock)} {name}")
+			# print("---\n")
 		
 		self.text += f"Total job number: {self.ready_queue.total_job_num}\n"
 		self.text += f"Miss deadline job number: {self.ready_queue.miss_deadline_job_num}\n"
