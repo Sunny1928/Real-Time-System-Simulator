@@ -60,8 +60,8 @@ class RealTimeSystem:
 		else:
 			return 0
 
-	def at_least_run_times(self):
-		""" Return the minium clocks for all tasks """
+	def minimum_run_times(self):
+		""" Return the minimum clocks for all tasks """
 		period_arr = []
 		max_phase_time = 0
 
@@ -79,16 +79,16 @@ class RealTimeSystem:
 		
 		# check whether tasks work by schedulability test
 		if(self.schedulability_test() != 1):
-			self.text = f"it can't work in {self.schedule_type}!"
-			self.write_file()
-			return
+			self.text = f"Jobs might miss deadline by {self.schedule_type}\n"
+			# self.write_file()
+			# return
 
-		end_clock = self.at_least_run_times()
+		end_clock = self.minimum_run_times()
 
 		for clock in range(0, end_clock):
 
 			# check each job can finish before deadline
-			missing_str = self.ready_queue.check_whether_jobs_can_finish(clock)
+			missing_str = self.ready_queue.check_whether_jobs_wont_miss_deadline(clock)
 
 			# check whether it's time to insert job to ready queue
 			task:Task
@@ -106,39 +106,10 @@ class RealTimeSystem:
 			# print(f"{'{:<2}'.format(clock)} {name}")
 			# print("---\n")
 		
+		self.text += f"Total job number: {self.ready_queue.total_job_num}\n"
+		self.text += f"Miss deadline job number: {self.ready_queue.miss_deadline_job_num}\n"
+		
 		self.write_file()
-
-
-SCHEDULE_TYPE = ['RM','EDF','LST'] # strict LST
-
-
-if __name__ == "__main__":
-	""" Test """
-	# file = 1
-	# schedule_type = SCHEDULE_TYPE[0]
-	# system = real_time_system(file, schedule_type)
-	# text = system.run()
-	# system.write_file(text)
-
-
-
-	""" Run all data """
-	for file in range(1, 7):
-
-		for schedule_type in SCHEDULE_TYPE:
-			system = real_time_system(file, schedule_type)
-			text = system.run()
-			system.write_file(text)
-
-
-
-
-	
-
-
-
-
-
 
 
 

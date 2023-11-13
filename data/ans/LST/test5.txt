@@ -108,3 +108,5 @@
 107 T2 
 108 T2 
 109 T2 
+Total job number: 8
+Miss deadline job number: 2

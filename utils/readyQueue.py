@@ -39,7 +39,7 @@ class ReadyQueue:
 		self.ready_queue.append(new_job)
 
 
-	def check_whether_jobs_can_finish(self, clock):
+	def check_whether_jobs_wont_miss_deadline(self, clock):
 		""" Check whether all jobs in the ready queue can finish in time by absolute_deadline - clock - excution_time """
 		text = ""
 		job:Job

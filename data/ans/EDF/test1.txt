@@ -21,3 +21,5 @@
 20    
 21 T1 
 22 T2 
+Total job number: 12
+Miss deadline job number: 0
