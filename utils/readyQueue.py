@@ -42,13 +42,17 @@ class ReadyQueue:
 	def check_whether_jobs_wont_miss_deadline(self, clock):
 		""" Check whether all jobs in the ready queue can finish in time by absolute_deadline - clock - excution_time """
 		text = ""
+		delete_arr = []
 		job:Job
 		for job in self.ready_queue:
 			if(job.absolute_deadline - clock - job.excution_time < 0):
 					self.miss_deadline_job_num += 1
-					self.ready_queue.remove(job)	
+					delete_arr.append(job)
 					text += f"{job.name} "
 		
+		for job in delete_arr:
+			self.ready_queue.remove(job)	
+
 		if(text == ""): return ""
 		else: return f"({text}miss deadline)"
 
@@ -79,6 +83,6 @@ class ReadyQueue:
 		text = ''
 		job:Job
 		for job in self.ready_queue:
-			text = f"{text} {job.name}:{job.slack} "
+			text = f"{text} {job.name}:{job.absolute_deadline} "
 		print(text)
 

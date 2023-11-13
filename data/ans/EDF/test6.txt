@@ -22,8 +22,8 @@ Jobs might miss deadline by EDF
 20 T1 
 21 T1 
 22 T1 
-23 T3 (T2 miss deadline)
-24    (T3 miss deadline)
+23    (T2 T3 miss deadline)
+24    
 25 T1 
 26 T1 
 27 T2 
