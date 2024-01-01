@@ -20,7 +20,7 @@ class RealTimeSystem:
 
 	def read_file(self):
 		""" Read file and store all tasks """
-		with open(f'data/democase/test/test{self.file}.txt') as f:
+		with open(f'./data/democase/test/test{self.file}.txt') as f:
 			lines = f.read().splitlines()
 			f.close()
 
@@ -34,7 +34,7 @@ class RealTimeSystem:
 	
 	def write_file(self):
 		""" Write file  """
-		with open(f"data/democase/ans/{self.schedule_type}/test{self.file}.txt", "w") as f:
+		with open(f"./data/democase/ans/{self.schedule_type}/test{self.file}.txt", "w") as f:
 			f.write(self.text)
 			f.close()
 
