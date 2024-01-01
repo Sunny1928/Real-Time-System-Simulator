@@ -28,8 +28,14 @@ if __name__ == "__main__":
         periodic_file = 'simple/periodic'
         aperiodic_file = 'simple/aperiodic_2'
 
+        system = RealTimeSystem(periodic_file, aperiodic_file, server_size, server)
+        text = system.run()
+
         periodic_file = 'complicated/0.8'
         aperiodic_file = 'complicated/aperiodic'
+
+        system = RealTimeSystem(periodic_file, aperiodic_file, server_size, server)
+        text = system.run()
 
         periodic_file = 'complicated/0.9'
         aperiodic_file = 'complicated/aperiodic'

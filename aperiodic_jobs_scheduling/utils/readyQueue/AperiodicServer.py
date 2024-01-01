@@ -83,7 +83,8 @@ class AperiodicServer(ReadyQueue):
 		""" Excute Job """
 		
 		job:Job = self.ready_queue[0]
-		name = job.name
+		response_time = clock - job.arrive_time + 1
+		name = f'{job.name} [rem_exe]: {job.excution_time} [server_deadline]: {self.server_deadline} [response_time]: {response_time} [deadline]:{self.server_deadline}'
 		job.excution_time -= 1
 		self.resource -= 1
 		
@@ -91,7 +92,7 @@ class AperiodicServer(ReadyQueue):
 		if(job.excution_time == 0):
 
 			self.finished_a_job_number += 1
-			self.total_response_time += clock - job.arrive_time + 1
+			self.total_response_time += response_time
 			self.ready_queue.remove(job)
 
 			# For TBS, check R3 and update server deadline and resources
