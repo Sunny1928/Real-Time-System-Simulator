@@ -84,8 +84,8 @@ class AperiodicServer(ReadyQueue):
 		
 		job:Job = self.ready_queue[0]
 		response_time = clock - job.arrive_time + 1
-		name = f'{job.name} [rem_exe]: {job.excution_time} [server_deadline]: {self.server_deadline} [response_time]: {response_time} [deadline]:{self.server_deadline}'
 		job.excution_time -= 1
+		name = f'{job.name} [rem_exe]: {job.excution_time} [server_deadline]: {self.server_deadline} [response_time]: {response_time} [deadline]:{self.server_deadline}'
 		self.resource -= 1
 		
         # Check job is over and remove it
