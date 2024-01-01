@@ -83,11 +83,11 @@ class AperiodicServer(ReadyQueue):
 		""" Excute Job """
 		
 		job:Job = self.ready_queue[0]
-		response_time = clock - job.arrive_time + 1
+		response_time = clock + 1 - job.arrive_time
 		job.excution_time -= 1
 		name = f'{job.name} [rem_exe]: {job.excution_time} [server_deadline]: {self.server_deadline}'
 		if job.excution_time == 0:
-			name += f'[response_time]: {response_time} [deadline]:{self.server_deadline}'
+			name += f'[response_time]: {response_time}({clock+1}-{job.arrive_time}) [deadline]:{self.server_deadline}'
 
 		self.resource -= 1
 		

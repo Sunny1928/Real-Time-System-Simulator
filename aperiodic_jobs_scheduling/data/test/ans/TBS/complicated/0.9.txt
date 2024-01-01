@@ -17,7 +17,7 @@
 16 T3 
 17 A1 [rem_exe]: 2 [server_deadline]: 46.0 
 18 A1 [rem_exe]: 1 [server_deadline]: 46.0 
-19 A1 [rem_exe]: 0 [server_deadline]: 46.0[response_time]: 9 [deadline]:46.0 
+19 A1 [rem_exe]: 0 [server_deadline]: 46.0[response_time]: 9(20-11) [deadline]:46.0 
 20 T2 
 21 T2 
 22 T2 
@@ -37,7 +37,7 @@
 36 A2 [rem_exe]: 3 [server_deadline]: 81.0 
 37 A2 [rem_exe]: 2 [server_deadline]: 81.0 
 38 A2 [rem_exe]: 1 [server_deadline]: 81.0 
-39 A2 [rem_exe]: 0 [server_deadline]: 81.0[response_time]: 16 [deadline]:81.0 
+39 A2 [rem_exe]: 0 [server_deadline]: 81.0[response_time]: 16(40-24) [deadline]:81.0 
 40 T7 
 41 T7 
 42 T7 
@@ -55,7 +55,7 @@
 54 A3 [rem_exe]: 3 [server_deadline]: 116.0 
 55 A3 [rem_exe]: 2 [server_deadline]: 116.0 
 56 A3 [rem_exe]: 1 [server_deadline]: 116.0 
-57 A3 [rem_exe]: 0 [server_deadline]: 116.0[response_time]: 26 [deadline]:116.0 
+57 A3 [rem_exe]: 0 [server_deadline]: 116.0[response_time]: 26(58-32) [deadline]:116.0 
 58 A4 [rem_exe]: 3 [server_deadline]: 136.0 
 59 A4 [rem_exe]: 2 [server_deadline]: 136.0 
 60 T3 
@@ -64,11 +64,11 @@
 63 T1 
 64 T1 
 65 A4 [rem_exe]: 1 [server_deadline]: 136.0 
-66 A4 [rem_exe]: 0 [server_deadline]: 136.0[response_time]: 26 [deadline]:136.0 
+66 A4 [rem_exe]: 0 [server_deadline]: 136.0[response_time]: 26(67-41) [deadline]:136.0 
 67 A5 [rem_exe]: 2 [server_deadline]: 151.0 
 68 A5 [rem_exe]: 1 [server_deadline]: 151.0 
-69 A5 [rem_exe]: 0 [server_deadline]: 151.0[response_time]: 22 [deadline]:151.0 
-70 A6 [rem_exe]: 0 [server_deadline]: 156.0[response_time]: 17 [deadline]:156.0 
+69 A5 [rem_exe]: 0 [server_deadline]: 151.0[response_time]: 22(70-48) [deadline]:151.0 
+70 A6 [rem_exe]: 0 [server_deadline]: 156.0[response_time]: 17(71-54) [deadline]:156.0 
 71 A7 [rem_exe]: 3 [server_deadline]: 176.0 
 72 A7 [rem_exe]: 2 [server_deadline]: 176.0 
 73 A7 [rem_exe]: 1 [server_deadline]: 176.0 
@@ -84,7 +84,7 @@
 83 T10 
 84 T10 
 85 T10 
-86 A7 [rem_exe]: 0 [server_deadline]: 176.0[response_time]: 19 [deadline]:176.0 
+86 A7 [rem_exe]: 0 [server_deadline]: 176.0[response_time]: 19(87-68) [deadline]:176.0 
 87 T9 
 88 T9 
 89 T9 
@@ -160,7 +160,7 @@
 159 A8 [rem_exe]: 3 [server_deadline]: 201.0 
 160 A8 [rem_exe]: 2 [server_deadline]: 201.0 
 161 A8 [rem_exe]: 1 [server_deadline]: 201.0 
-162 A8 [rem_exe]: 0 [server_deadline]: 201.0[response_time]: 83 [deadline]:201.0 
+162 A8 [rem_exe]: 0 [server_deadline]: 201.0[response_time]: 83(163-80) [deadline]:201.0 
 163 T2 
 164 T2 
 165 T3 
@@ -175,7 +175,7 @@
 174 A9 [rem_exe]: 3 [server_deadline]: 231.0 
 175 A9 [rem_exe]: 2 [server_deadline]: 231.0 
 176 A9 [rem_exe]: 1 [server_deadline]: 231.0 
-177 A9 [rem_exe]: 0 [server_deadline]: 231.0[response_time]: 84 [deadline]:231.0 
+177 A9 [rem_exe]: 0 [server_deadline]: 231.0[response_time]: 84(178-94) [deadline]:231.0 
 178 T10 
 179 T10 
 180 T3 
@@ -187,7 +187,7 @@
 186 A10 [rem_exe]: 3 [server_deadline]: 251.0 
 187 A10 [rem_exe]: 2 [server_deadline]: 251.0 
 188 A10 [rem_exe]: 1 [server_deadline]: 251.0 
-189 A10 [rem_exe]: 0 [server_deadline]: 251.0[response_time]: 91 [deadline]:251.0 
+189 A10 [rem_exe]: 0 [server_deadline]: 251.0[response_time]: 91(190-99) [deadline]:251.0 
 190 A11 [rem_exe]: 6 [server_deadline]: 286.0 
 191 A11 [rem_exe]: 5 [server_deadline]: 286.0 
 192 T6 
@@ -200,7 +200,7 @@
 199 A11 [rem_exe]: 3 [server_deadline]: 286.0 
 200 A11 [rem_exe]: 2 [server_deadline]: 286.0 
 201 A11 [rem_exe]: 1 [server_deadline]: 286.0 
-202 A11 [rem_exe]: 0 [server_deadline]: 286.0[response_time]: 91 [deadline]:286.0 
+202 A11 [rem_exe]: 0 [server_deadline]: 286.0[response_time]: 91(203-112) [deadline]:286.0 
 203 T4 
 204 T4 
 205 T4 
@@ -265,7 +265,7 @@
 264 A12 [rem_exe]: 3 [server_deadline]: 311.0 
 265 A12 [rem_exe]: 2 [server_deadline]: 311.0 
 266 A12 [rem_exe]: 1 [server_deadline]: 311.0 
-267 A12 [rem_exe]: 0 [server_deadline]: 311.0[response_time]: 146 [deadline]:311.0 
+267 A12 [rem_exe]: 0 [server_deadline]: 311.0[response_time]: 146(268-122) [deadline]:311.0 
 268 T10 
 269 T10 
 270 T3 
@@ -275,14 +275,14 @@
 274 T1 
 275 T10 
 276 A13 [rem_exe]: 1 [server_deadline]: 321.0 
-277 A13 [rem_exe]: 0 [server_deadline]: 321.0[response_time]: 151 [deadline]:321.0 
+277 A13 [rem_exe]: 0 [server_deadline]: 321.0[response_time]: 151(278-127) [deadline]:321.0 
 278 A14 [rem_exe]: 6 [server_deadline]: 356.0 
 279 A14 [rem_exe]: 5 [server_deadline]: 356.0 
 280 A14 [rem_exe]: 4 [server_deadline]: 356.0 
 281 A14 [rem_exe]: 3 [server_deadline]: 356.0 
 282 A14 [rem_exe]: 2 [server_deadline]: 356.0 
 283 A14 [rem_exe]: 1 [server_deadline]: 356.0 
-284 A14 [rem_exe]: 0 [server_deadline]: 356.0[response_time]: 145 [deadline]:356.0 
+284 A14 [rem_exe]: 0 [server_deadline]: 356.0[response_time]: 145(285-140) [deadline]:356.0 
 285 T3 
 286 T3 
 287 T9 
@@ -320,7 +320,7 @@
 319 T2 
 320 A15 [rem_exe]: 2 [server_deadline]: 371.0 
 321 A15 [rem_exe]: 1 [server_deadline]: 371.0 
-322 A15 [rem_exe]: 0 [server_deadline]: 371.0[response_time]: 176 [deadline]:371.0 
+322 A15 [rem_exe]: 0 [server_deadline]: 371.0[response_time]: 176(323-147) [deadline]:371.0 
 323 T7 
 324 T7 
 325 T7 
@@ -338,7 +338,7 @@
 337 T6 
 338 T6 
 339 T6 
-340 A16 [rem_exe]: 0 [server_deadline]: 391.0[response_time]: 188 [deadline]:391.0 
+340 A16 [rem_exe]: 0 [server_deadline]: 391.0[response_time]: 188(341-153) [deadline]:391.0 
 341 T8 
 342 T8 
 343 T8 
@@ -378,9 +378,9 @@
 377 A17 [rem_exe]: 3 [server_deadline]: 411.0 
 378 A17 [rem_exe]: 2 [server_deadline]: 411.0 
 379 A17 [rem_exe]: 1 [server_deadline]: 411.0 
-380 A17 [rem_exe]: 0 [server_deadline]: 411.0[response_time]: 218 [deadline]:411.0 
+380 A17 [rem_exe]: 0 [server_deadline]: 411.0[response_time]: 218(381-163) [deadline]:411.0 
 381 A18 [rem_exe]: 1 [server_deadline]: 421.0 
-382 A18 [rem_exe]: 0 [server_deadline]: 421.0[response_time]: 212 [deadline]:421.0 
+382 A18 [rem_exe]: 0 [server_deadline]: 421.0[response_time]: 212(383-171) [deadline]:421.0 
 383 A19 [rem_exe]: 3 [server_deadline]: 441.0 
 384 T6 
 385 T6 
@@ -393,7 +393,7 @@
 392 T1 
 393 T1 
 394 T1 
-395 A19 [rem_exe]: 0 [server_deadline]: 441.0[response_time]: 219 [deadline]:441.0 
+395 A19 [rem_exe]: 0 [server_deadline]: 441.0[response_time]: 219(396-177) [deadline]:441.0 
 396 T2 
 397 T2 
 398 T2 
@@ -409,7 +409,7 @@
 408 A20 [rem_exe]: 3 [server_deadline]: 476.0 
 409 A20 [rem_exe]: 2 [server_deadline]: 476.0 
 410 A20 [rem_exe]: 1 [server_deadline]: 476.0 
-411 A20 [rem_exe]: 0 [server_deadline]: 476.0[response_time]: 223 [deadline]:476.0 
+411 A20 [rem_exe]: 0 [server_deadline]: 476.0[response_time]: 223(412-189) [deadline]:476.0 
 412 T7 
 413 T7 
 414 T7 
@@ -427,7 +427,7 @@
 426 A21 [rem_exe]: 3 [server_deadline]: 501.0 
 427 A21 [rem_exe]: 2 [server_deadline]: 501.0 
 428 A21 [rem_exe]: 1 [server_deadline]: 501.0 
-429 A21 [rem_exe]: 0 [server_deadline]: 501.0[response_time]: 235 [deadline]:501.0 
+429 A21 [rem_exe]: 0 [server_deadline]: 501.0[response_time]: 235(430-195) [deadline]:501.0 
 430 A22 [rem_exe]: 5 [server_deadline]: 531.0 
 431 A22 [rem_exe]: 4 [server_deadline]: 531.0 
 432 T6 
@@ -439,7 +439,7 @@
 438 A22 [rem_exe]: 3 [server_deadline]: 531.0 
 439 A22 [rem_exe]: 2 [server_deadline]: 531.0 
 440 A22 [rem_exe]: 1 [server_deadline]: 531.0 
-441 A22 [rem_exe]: 0 [server_deadline]: 531.0[response_time]: 234 [deadline]:531.0 
+441 A22 [rem_exe]: 0 [server_deadline]: 531.0[response_time]: 234(442-208) [deadline]:531.0 
 442 T9 
 443 T9 
 444 T2 
@@ -543,7 +543,7 @@
 542 T1 
 543 T1 
 544 T1 
-545 A23 [rem_exe]: 0 [server_deadline]: 581.0[response_time]: 338 [deadline]:581.0 
+545 A23 [rem_exe]: 0 [server_deadline]: 581.0[response_time]: 338(546-208) [deadline]:581.0 
 546 T8 
 547 T8 
 548 T8 
@@ -589,7 +589,7 @@
 588 A24 [rem_exe]: 3 [server_deadline]: 611.0 
 589 A24 [rem_exe]: 2 [server_deadline]: 611.0 
 590 A24 [rem_exe]: 1 [server_deadline]: 611.0 
-591 A24 [rem_exe]: 0 [server_deadline]: 611.0[response_time]: 384 [deadline]:611.0 
+591 A24 [rem_exe]: 0 [server_deadline]: 611.0[response_time]: 384(592-208) [deadline]:611.0 
 592 T6 
 593 T6 
 594 T6 
@@ -611,7 +611,7 @@
 610 A25 [rem_exe]: 3 [server_deadline]: 661.0 
 611 A25 [rem_exe]: 2 [server_deadline]: 661.0 
 612 A25 [rem_exe]: 1 [server_deadline]: 661.0 
-613 A25 [rem_exe]: 0 [server_deadline]: 661.0[response_time]: 406 [deadline]:661.0 
+613 A25 [rem_exe]: 0 [server_deadline]: 661.0[response_time]: 406(614-208) [deadline]:661.0 
 614 T2 
 615 T3 
 616 T3 
@@ -640,7 +640,7 @@
 639 A26 [rem_exe]: 3 [server_deadline]: 691.0 
 640 A26 [rem_exe]: 2 [server_deadline]: 691.0 
 641 A26 [rem_exe]: 1 [server_deadline]: 691.0 
-642 A26 [rem_exe]: 0 [server_deadline]: 691.0[response_time]: 435 [deadline]:691.0 
+642 A26 [rem_exe]: 0 [server_deadline]: 691.0[response_time]: 435(643-208) [deadline]:691.0 
 643 T10 
 644 T10 
 645 T3 
@@ -693,7 +693,7 @@
 692 T1 
 693 T1 
 694 T1 
-695 A27 [rem_exe]: 0 [server_deadline]: 741.0[response_time]: 488 [deadline]:741.0 
+695 A27 [rem_exe]: 0 [server_deadline]: 741.0[response_time]: 488(696-208) [deadline]:741.0 
 696 T7 
 697 T7 
 698 T7 
@@ -706,7 +706,7 @@
 705 T3 
 706 T3 
 707 A28 [rem_exe]: 1 [server_deadline]: 771.0 
-708 A28 [rem_exe]: 0 [server_deadline]: 771.0[response_time]: 501 [deadline]:771.0 
+708 A28 [rem_exe]: 0 [server_deadline]: 771.0[response_time]: 501(709-208) [deadline]:771.0 
 709 T8 
 710 T8 
 711 T8 
@@ -772,7 +772,7 @@
 771 T6 
 772 A29 [rem_exe]: 2 [server_deadline]: 821.0 
 773 A29 [rem_exe]: 1 [server_deadline]: 821.0 
-774 A29 [rem_exe]: 0 [server_deadline]: 821.0[response_time]: 567 [deadline]:821.0 
+774 A29 [rem_exe]: 0 [server_deadline]: 821.0[response_time]: 567(775-208) [deadline]:821.0 
 775 A30 [rem_exe]: 5 [server_deadline]: 851.0 
 776 A30 [rem_exe]: 4 [server_deadline]: 851.0 
 777 A30 [rem_exe]: 3 [server_deadline]: 851.0 
@@ -783,7 +783,7 @@
 782 T1 
 783 T1 
 784 T1 
-785 A30 [rem_exe]: 0 [server_deadline]: 851.0[response_time]: 578 [deadline]:851.0 
+785 A30 [rem_exe]: 0 [server_deadline]: 851.0[response_time]: 578(786-208) [deadline]:851.0 
 786 T4 
 787 T4 
 788 T4 
@@ -858,7 +858,7 @@
 857 A31 [rem_exe]: 3 [server_deadline]: 901.0 
 858 A31 [rem_exe]: 2 [server_deadline]: 901.0 
 859 A31 [rem_exe]: 1 [server_deadline]: 901.0 
-860 A31 [rem_exe]: 0 [server_deadline]: 901.0[response_time]: 653 [deadline]:901.0 
+860 A31 [rem_exe]: 0 [server_deadline]: 901.0[response_time]: 653(861-208) [deadline]:901.0 
 861 T9 
 862 T9 
 863 T9 
@@ -890,7 +890,7 @@
 889 A32 [rem_exe]: 3 [server_deadline]: 931.0 
 890 A32 [rem_exe]: 2 [server_deadline]: 931.0 
 891 A32 [rem_exe]: 1 [server_deadline]: 931.0 
-892 A32 [rem_exe]: 0 [server_deadline]: 931.0[response_time]: 685 [deadline]:931.0 
+892 A32 [rem_exe]: 0 [server_deadline]: 931.0[response_time]: 685(893-208) [deadline]:931.0 
 893 T7 
 894 T7 
 895 T7 
@@ -926,7 +926,7 @@
 925 A33 [rem_exe]: 3 [server_deadline]: 981.0 
 926 A33 [rem_exe]: 2 [server_deadline]: 981.0 
 927 A33 [rem_exe]: 1 [server_deadline]: 981.0 
-928 A33 [rem_exe]: 0 [server_deadline]: 981.0[response_time]: 721 [deadline]:981.0 
+928 A33 [rem_exe]: 0 [server_deadline]: 981.0[response_time]: 721(929-208) [deadline]:981.0 
 929 T8 
 930 T3 
 931 T3 
@@ -972,7 +972,7 @@
 971 A34 [rem_exe]: 3 [server_deadline]: 1011.0 
 972 A34 [rem_exe]: 2 [server_deadline]: 1011.0 
 973 A34 [rem_exe]: 1 [server_deadline]: 1011.0 
-974 A34 [rem_exe]: 0 [server_deadline]: 1011.0[response_time]: 767 [deadline]:1011.0 
+974 A34 [rem_exe]: 0 [server_deadline]: 1011.0[response_time]: 767(975-208) [deadline]:1011.0 
 975 T3 
 976 T3 
 977 T2 
