@@ -1,5 +1,6 @@
 test1.py
 main.cpp
 .DS_Store
-utils/__pycache__
-utils/readyQueue/__pycache__
+periodic_jobs_scheduling/utils/__pycache__
+aperiodic_jobs_scheduling/utils/__pycache__
+aperiodic_jobs_scheduling/utils/readyQueue/__pycache__
