@@ -7,11 +7,7 @@ class PeriodicReadyQueue(ReadyQueue):
 		""" Initialize ready queue """
 
 		super().__init__()
-		self.total_job_num = 0
-		self.miss_deadline_job_num = 0
-		self.total_response_time = 0
-		self.finished_a_job_number = 0
-
+		
 
 
 	def insert(self, new_job:PeriodicJob):

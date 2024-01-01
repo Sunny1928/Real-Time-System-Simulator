@@ -3,18 +3,15 @@ from .readyQueue import ReadyQueue
 
 class AperiodicServer(ReadyQueue):
 
-	def __init__(self, server_size, server):
+	def __init__(self, server_size, server_type):
 		""" Initialize ready queue """
 		
 		super().__init__()
 		self.server_deadline = 0
 		self.resource = 0 # es
 		self.server_size = server_size
-		self.server = server
-		self.total_job_num = 0
-		self.miss_deadline_job_num = 0
-		self.total_response_time = 0
-		self.finished_a_job_number = 0
+		self.server_type = server_type
+		
 
 
 
@@ -54,7 +51,7 @@ class AperiodicServer(ReadyQueue):
 		# Check R2 and update server deadline and resources
 		if(len(self.ready_queue) == 0):
 
-			if self.server == 'CUS':
+			if self.server_type == 'CUS':
 				if clock >= self.server_deadline:
 					self.server_deadline = clock + new_job.excution_time/self.server_size
 					self.resource = new_job.excution_time
@@ -62,7 +59,7 @@ class AperiodicServer(ReadyQueue):
 				else:
 					"""Do nothing"""
 					
-			elif self.server == 'TBS':
+			elif self.server_type == 'TBS':
 				self.server_deadline = max(clock, self.server_deadline) + new_job.excution_time/self.server_size
 				self.resource = new_job.excution_time
 		
@@ -74,7 +71,7 @@ class AperiodicServer(ReadyQueue):
 	def check_deadline_equal_clock(self, clock):
 		""" For CUS, check R3 and update server deadline and resources"""
 
-		if(self.server == 'CUS'):
+		if(self.server_type == 'CUS'):
 			if  self.server_deadline == clock:
 				if self.get_first_priority_job() != -1:
 					self.server_deadline = self.server_deadline + self.get_first_priority_job().excution_time/self.server_size
@@ -98,7 +95,7 @@ class AperiodicServer(ReadyQueue):
 			self.ready_queue.remove(job)
 
 			# For TBS, check R3 and update server deadline and resources
-			if(self.server == 'TBS'):
+			if(self.server_type == 'TBS'):
 				if self.get_first_priority_job() != -1:
 					self.server_deadline = self.server_deadline + self.get_first_priority_job().excution_time/self.server_size
 					self.resource = self.get_first_priority_job().excution_time

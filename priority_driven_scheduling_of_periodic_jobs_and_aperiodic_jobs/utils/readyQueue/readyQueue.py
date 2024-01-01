@@ -6,7 +6,10 @@ class ReadyQueue:
 		""" Initialize ready queue """
 		
 		self.ready_queue = []
-
+		self.total_job_num = 0
+		self.miss_deadline_job_num = 0
+		self.total_response_time = 0
+		self.finished_a_job_number = 0
 	
 	
 	def check_whether_jobs_wont_miss_deadline(self, clock):
